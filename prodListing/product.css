@@ -3,7 +3,7 @@ body {
 }
 #h001 {
   font-family: arial;
-  font-size: 40px;
+  font-size: 30px;
   color: black
 }
 #topBanner {
@@ -60,7 +60,8 @@ body {
 }
 #topHeader {
   float: left;
-  font-size: 80px;
+  font-size: 60px;
+  /* margin-bottom: 50px; */
   /* border: 1px solid black; */
   width: 400px;
   font-family: tahoma;
@@ -77,19 +78,27 @@ body {
   /* margin-bottom: 200px; */
 }
 #div02 {
+  /* border: 1px solid black; */
   margin-top: 50px;
 }
 #wine1 {
   /* border: 1px solid black; */
   overflow: hidden;
 }
+#wine2 {
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
 #winePic1 {
+  /* border: 1px solid black; */
   margin-left: 200px;
 }
 #winePic2 {
-  margin-left: 200px;
+  /* border: 1px solid black; */
+  margin-left: 300px;
 }
 #p01 {
+  /* border: 1px solid black; */
   position: relative;
   bottom: 15px;
   right: 200px;
