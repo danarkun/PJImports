@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="gate.css">
+    <title>PJImports</title>
+    <meta charset="UTF-8">
+  </head>
+</head>
+<body>
+  <img src="../imgs/PJBANNER2.png" width="1192" height="400">
+  <div id="buttonWrap">
+    <button id="button" type="button"
+      onclick=success() onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" 
+            onmouseover="this.style.opacity=0.6;this.filters.alpha.opacity=60">
+      I am over 18 years of age</button>
+
+    <button id="button1" type="button"
+       onclick=failure() onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" 
+            onmouseover="this.style.opacity=0.6;this.filters.alpha.opacity=60">
+      I am NOT over 18 years of age</button>
+  </div>
+  <script>
+    function failOver() {
+      
+    }
+  </script>
+
+  <script>
+    function success() {
+      window.location.href = "../story/story.html";
+      // document.getElementById("demo").innerHTML = "TY FOR AGE";
+    }
+  </script>
+
+  <script>
+    function failure() {
+      document.getElementById("fail").innerHTML = "You must be over 18 years of age to enter";
+    }
+  </script>
+  <p id="fail"</p>
+
+</body>
+</html> 
+

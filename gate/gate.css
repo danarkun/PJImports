@@ -1,0 +1,36 @@
+body{
+  background-color:#d4d8d9;
+}
+#button1 {
+  font-family: tahoma;
+  font-size: 18px;
+  border-radius: 8px;
+}
+#button1:hover {
+  background-color: red;
+}
+img {
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#fail {
+  position: fixed;
+  font-family: tahoma;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#button {
+  font-family: tahoma;
+  font-size: 18px;
+  border-radius: 8px;
+}
+#buttonWrap {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
