@@ -1,5 +1,5 @@
 body {
-  background-color:#d4d8d9;
+  background-color:#ffffff;
 }
 #h001 {
   font-family: arial;
@@ -110,7 +110,7 @@ body {
   height: 470px;
   /* overflow-y: scroll; */
   color: black;
-  font-family: tahoma;
+  font-family: helvetica;
 }
 /* #p02 { */
 /*   color: darkblue; */
@@ -150,13 +150,15 @@ th {
   display: inline-block;
 }
 #postAddr {
+  font-family: helvetica;
   height: 100px;
-  width: 100px;
+  width: 150px;
   /* border: 1px solid-block; */
   margin-left: 50px;
   float: left;
 }
 #copyright {
+  font-family: helvetica;
   height:0px;
   /* border: 1px solid-block; */
   margin-left: 500px;
@@ -166,5 +168,9 @@ th {
   /* border: 1px solid black; */
   margin-left: 1000px;
 }
-tr {background-color:#d4d8d9}
-tr:hover{background-color:#f5f5f5}
+#futureShipments, #dates {
+  font-family: helvetica;
+
+}
+tr {background-color:#ffffff}
+tr:hover{background-color:#d4d8d9}

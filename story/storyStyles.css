@@ -1,9 +1,9 @@
 body {
   /* background-color: #7f7e7e; */
-  background-color:#d4d8d9;
+  background-color:#ffffff;
 }
 #h001 {
-  font-family: arial;
+  font-family: helvetica;
   font-size: 40px;
   color: black
 }
@@ -124,21 +124,26 @@ th {
   display: inline-block;
 }
 #postAddr {
+  font-family: helvetica;
   height: 100px;
-  width: 100px;
+  width: 150px;
   /* border: 1px solid-block; */
   margin-left: 50px;
   float: left;
 }
 #copyright {
+  font-family: helvetica;
   height:0px;
   /* border: 1px solid-block; */
   margin-left: 500px;
   /* float: left; */
 }
+#futureShipments {
+  font-family: helvetica;
+}
 #logo {
   /* border: 1px solid black; */
   margin-left: 1000px;
 }
-tr {background-color:#d4d8d9}
-tr:hover{background-color:#f5f5f5}
+tr {background-color:#ffffff}
+tr:hover{background-color:#d4d8d9}
